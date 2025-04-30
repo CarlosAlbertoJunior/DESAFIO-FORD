@@ -1,81 +1,78 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    color: #1351b8;
-    padding: 1em;
-    text-align: center;
-    /* align-items: center; */
+  color: #1351b8;
+  padding: 1em;
+  text-align: center;
 }
 
 nav {
-    margin: 0 1em;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-
+  margin: 0 16px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    text-align: left;
-}
-.logo img {
-    height: 50px;
-    width: auto;
-    margin: 5px;
+  text-align: left;
 }
 
+.logo img {
+  height: 50px;
+  width: auto;
+  margin: 5px;
+}
 
 .links a {
-    margin: 0 1em;
-    color: #1351b8;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
+  margin: 0 16px;
+  color: #1351b8;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
 }
 .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 main {
-    text-align: center;
+  text-align: center;
 }
 main img {
-    width: 100%;
-    height: auto;
-    max-width: 800px;
-    margin: 20px auto;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
 footer {
-    background-color: #1b357e;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #1b357e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .redes {
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    margin-left: 10px;
-
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 .redes img {
-    height: 30px;
-    width: auto;
-    margin: 5px;
+  height: 30px;
+  width: auto;
+  margin: 5px;
 }
