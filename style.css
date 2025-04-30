@@ -8,23 +8,30 @@ header {
     color: #1351b8;
     padding: 1em;
     text-align: center;
+    align-items: center;
 }
 
-nav {
+nav logo,
+links {
     margin: 0 1em;
+    align-items: center;
+
 }
 
-nav a {
+.logo {
+    text-align: left;
+
+}
+
+.links {}
+
+.links a {
     margin: 0 1em;
     color: #1351b8;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-}
-
-nav img {
-    text-align: left;
 }
 
 main {
@@ -34,7 +41,25 @@ main {
 footer {
     background-color: #1b357e;
     color: white;
-    padding: 1em;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    margin-right: 10px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+
+.redes img {
+    height: 40px;
+    width: auto;
+    margin: 5px;
 }
