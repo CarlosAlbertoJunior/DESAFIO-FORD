@@ -8,11 +8,10 @@ header {
     color: #1351b8;
     padding: 1em;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
-nav logo,
-links {
+nav {
     margin: 0 1em;
     align-items: center;
 
@@ -22,8 +21,6 @@ links {
     text-align: left;
 
 }
-
-.links {}
 
 .links a {
     margin: 0 1em;
