@@ -1,23 +1,40 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header, footer {
-    background-color: rgb(3, 3, 185);
-    color: white;
+header {
+    color: #1351b8;
     padding: 1em;
     text-align: center;
 }
+
 nav {
     margin: 0 1em;
 }
 
 nav a {
     margin: 0 1em;
-    color: white;
+    color: #1351b8;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+}
+
+nav img {
+    text-align: left;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    background-color: #1b357e;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
 }
