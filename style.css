@@ -8,6 +8,8 @@ header {
   color: #1351b8;
   padding: 1em;
   text-align: center;
+  /* background-color:rgb(241, 241, 241); */
+  
 }
 
 nav {
@@ -15,6 +17,8 @@ nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0 2px 2px rgba(23, 25, 170, 0.5);
+  
 }
 
 .logo {
@@ -44,12 +48,21 @@ nav {
 
 main {
   text-align: center;
+  min-height: 70vh;
+  
 }
 main img {
   width: 100%;
   height: auto;
   max-width: 800px;
-  margin: 20px auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+main p {
+  font-size: 20px;
+  margin: 2px;
+  padding: 0 20px;
+  color: #1351b8;
 }
 
 footer {
