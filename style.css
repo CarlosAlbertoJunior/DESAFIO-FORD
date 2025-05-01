@@ -48,13 +48,13 @@ nav {
 
 main {
   text-align: center;
-  min-height: 70vh;
+  min-height: 80vh;
   
 }
 main img {
   width: 100%;
   height: auto;
-  max-width: 800px;
+  max-width: 1000px;
   margin-top: 20px;
   border-radius: 10px;
 }
