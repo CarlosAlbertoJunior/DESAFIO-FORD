@@ -8,7 +8,7 @@ header {
   color: #1351b8;
   padding: 1em;
   text-align: center;
-  /* background-color:rgb(241, 241, 241); */
+  /* background-color: rgb(241, 241, 241); */
 
 }
 
@@ -34,7 +34,7 @@ nav {
 .links a {
   margin: 0 16px;
   color: #1351b8;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
@@ -49,6 +49,7 @@ nav {
 
 main {
   text-align: center;
+
 }
 
 main img {
@@ -65,6 +66,7 @@ main p {
   padding: 0 20px;
   font-style: italic;
   color: #010101;
+
 }
 
 .imagensCars {
@@ -75,21 +77,20 @@ main p {
 }
 
 .imagensCars img {
-  width: 420px;
+  width: 320px;
 }
 
 .informsCars {
   display: flex;
-  gap: 400px;
+  gap: 300px;
   text-align: center;
   justify-content: center;
+
 }
 
 footer {
-  position: fixed;
+  position: static;
   bottom: 0;
-  z-index: 1000;
-  padding: 10px;
 }
 
 iframe {
