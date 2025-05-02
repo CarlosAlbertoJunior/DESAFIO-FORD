@@ -55,7 +55,7 @@ main {
 main img {
   width: 100%;
   height: auto;
-  max-width: 1680px;
+  max-width: 1000px;
   margin-top: 20px;
   border-radius: 10px;
 }
