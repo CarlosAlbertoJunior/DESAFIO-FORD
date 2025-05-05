@@ -77,18 +77,36 @@ main p {
 
 }
 
-.imagensCars {
+.tabela {
+  width: 60%;
+
+}
+
+.imagensCars1 {
   display: flex;
-  gap: 40px;
   text-align: center;
   justify-content: center;
+}
+
+.imagensCars2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  float: right;
+}
+
+.imagensCars3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  float: left;
 }
 
 .imagensCars img {
   width: 320px;
 }
 
-.informsCars {
+.tabelasInfo {
   display: flex;
   gap: 300px;
   text-align: center;
