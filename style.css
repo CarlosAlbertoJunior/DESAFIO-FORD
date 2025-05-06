@@ -78,28 +78,42 @@ main p {
 }
 
 .tabela {
-  width: 60%;
-
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  margin: auto;
 }
 
 .imagensCars1 {
   display: flex;
   text-align: center;
-  justify-content: center;
+  flex-direction: column;
+
+}
+
+table th {
+  color: #1351b8;
+  font-size: 20px;
+}
+
+table td {
+  font-size: 20px;
+}
+
+.texto {
+  font-size: 20px;
 }
 
 .imagensCars2 {
   display: flex;
   text-align: center;
-  justify-content: center;
-  float: right;
+  flex-direction: column;
 }
 
 .imagensCars3 {
   display: flex;
   text-align: center;
-  justify-content: center;
-  float: left;
+  flex-direction: column;
 }
 
 .imagensCars img {
@@ -111,6 +125,16 @@ main p {
   gap: 300px;
   text-align: center;
   justify-content: center;
+
+}
+
+button {
+  background-color: #0263ff;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
 
 }
 
