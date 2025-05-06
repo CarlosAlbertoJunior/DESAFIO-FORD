@@ -16,7 +16,6 @@ header {
   padding: 1em;
   text-align: center;
   /* background-color: rgb(241, 241, 241); */
-
 }
 
 nav {
@@ -25,7 +24,6 @@ nav {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 2px 2px rgba(23, 25, 170, 0.5);
-
 }
 
 .logo {
@@ -53,11 +51,13 @@ nav {
   align-items: center;
   flex: 1;
 }
+links:hover {
+  background-color: rgb(4, 45, 112);
+}
 
 main {
   text-align: center;
   flex: 1;
-
 }
 
 main img {
@@ -74,7 +74,6 @@ main p {
   padding: 0 20px;
   font-style: italic;
   color: #010101;
-
 }
 
 .tabela {
@@ -88,7 +87,6 @@ main p {
   display: flex;
   text-align: center;
   flex-direction: column;
-
 }
 
 table th {
@@ -100,6 +98,14 @@ table td {
   font-size: 20px;
 }
 
+.tabela-contato {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+table, img {
+  text-align: center;
+}
 .texto {
   font-size: 20px;
 }
@@ -125,7 +131,6 @@ table td {
   gap: 300px;
   text-align: center;
   justify-content: center;
-
 }
 
 button {
@@ -135,7 +140,11 @@ button {
   margin-bottom: 20px;
   padding: 10px;
   font-size: 20px;
-
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(4, 45, 112);
 }
 
 /* footer {
@@ -172,4 +181,51 @@ footer img {
   height: 30px;
   width: auto;
   margin: 5px;
+}
+@media (max-width: 468px) {
+  html,
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo img {
+    height: 30px;
+    width: auto;
+    /* margin: 5px;
+    margin: 10px; */
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .tabela {
+    width: 100%;
+    flex-direction: column;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 10px;
+    margin: auto;
+  }
+  button {
+    background-color: #0263ff;
+    border-radius: 10px;
+    /* margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px; */
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    background-color: rgb(4, 45, 112);
+  }
 }
