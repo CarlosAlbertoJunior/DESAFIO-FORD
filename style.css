@@ -11,6 +11,7 @@ body {
   padding: 0;
 }
 
+/* MENU  */
 header {
   color: #1351b8;
   padding: 1em;
@@ -51,22 +52,17 @@ nav {
   align-items: center;
   flex: 1;
 }
+
 links:hover {
   background-color: rgb(4, 45, 112);
 }
 
+/* HOME  */
 main {
   text-align: center;
   flex: 1;
 }
 
-main img {
-  width: 100%;
-  height: auto;
-  max-width: 1580px;
-  margin-top: 20px;
-  border-radius: 10px;
-}
 
 main p {
   font-size: 20px;
@@ -76,6 +72,14 @@ main p {
   color: #010101;
 }
 
+.imagemCar {
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* LANÇAMENTO  */
 .tabela {
   display: flex;
   justify-content: space-around;
@@ -87,6 +91,12 @@ main p {
   display: flex;
   text-align: center;
   flex-direction: column;
+
+}
+
+table {
+  text-align: center;
+
 }
 
 table th {
@@ -103,9 +113,9 @@ table td {
   padding: 12px;
   text-align: center;
 }
-table, img {
-  text-align: center;
-}
+
+
+
 .texto {
   font-size: 20px;
 }
@@ -114,12 +124,15 @@ table, img {
   display: flex;
   text-align: center;
   flex-direction: column;
+  width: 320px;
+
 }
 
 .imagensCars3 {
   display: flex;
   text-align: center;
   flex-direction: column;
+  vertical-align: middle;
 }
 
 .imagensCars img {
@@ -143,19 +156,47 @@ button {
   color: white;
   cursor: pointer;
 }
+
 button:hover {
   background-color: rgb(4, 45, 112);
 }
-
-/* footer {
-  position: static;
-  bottom: 0;
-} */
 
 iframe {
   width: 100%;
   height: 600px;
 }
+
+
+/* CONTATO  */
+
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.imagetabela img {
+  width: 500px;
+  height: auto;
+}
+
+.forms {
+  border-radius: 4px;
+}
+
+input,
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #000;
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+/* FOOTER */
 
 footer {
   background-color: #1b357e;
@@ -182,13 +223,16 @@ footer img {
   width: auto;
   margin: 5px;
 }
+
 @media (max-width: 468px) {
+
   html,
   body {
     height: 100%;
     display: flex;
     flex-direction: column;
   }
+
   nav {
     flex-direction: column;
     align-items: center;
@@ -198,33 +242,31 @@ footer img {
   .logo img {
     height: 30px;
     width: auto;
-    /* margin: 5px;
-    margin: 10px; */
+
   }
+
   footer {
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
   }
+
   .tabela {
     width: 100%;
     flex-direction: column;
-    /* display: flex; */
-    /* justify-content: space-around; */
     padding: 10px;
     margin: auto;
   }
+
   button {
     background-color: #0263ff;
     border-radius: 10px;
-    /* margin-top: 30px;
-    margin-bottom: 20px;
-    padding: 10px; */
     font-size: 20px;
     color: white;
     cursor: pointer;
     width: 100%;
   }
+
   button:hover {
     background-color: rgb(4, 45, 112);
   }
