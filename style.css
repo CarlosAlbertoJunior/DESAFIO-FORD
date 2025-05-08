@@ -50,6 +50,10 @@ nav {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+.links a:hover {
+  transform: scale(1.1); /* Aplica o zoom */
 }
 
 .links {
@@ -226,7 +230,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-
 }
 
 footer img {
@@ -257,7 +260,6 @@ footer img {
 }
 
 @media (max-width: 850px) {
-
   .logo img {
     display: none;
   }
@@ -270,28 +272,14 @@ footer img {
 
   /* Reduz a fonte pata uma melhor visualização */
   .links a {
-    font-size: 20px;
+    font-size: 25px;
   }
-
-  /* .tabela {
-    flex-direction: column;
-    align-items: center;
-  } */
 
   /* Deixa as tabelas lado a lado sem se empilhar */
   .tabelasInfo {
     flex-direction: column;
     gap: 40px;
   }
-
-  /* Centraliza e separa os blocos evitando que fiquem amontoadas */
-  /* .imagensCars1,
-  .imagensCars2,
-  .imagensCars3 {
-    align-items: center;
-    margin-bottom: 20px;
-
-  } */
 
   /* Deixando as imagens ajustadas sem sair da tela  */
   .imagensCars img {
@@ -323,6 +311,11 @@ footer img {
 
   footer img {
     margin: 0;
+    width: 60px;
+    margin-top: 5px;
+  }
+  footer p {
+    font-size: 10px;
   }
 
   .redes h4 {
