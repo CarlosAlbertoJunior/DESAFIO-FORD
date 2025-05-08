@@ -77,10 +77,10 @@ main p {
   color: #010101;
 }
 
-.imagemCar {
+.imagemCar img {
   margin-top: 50px;
   border-radius: 10px;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
