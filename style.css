@@ -3,12 +3,19 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
+}
+
+/* Impedindo a ultrapassagem da largura da tela  */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* MENU  */
@@ -16,7 +23,6 @@ header {
   color: #1351b8;
   padding: 1em;
   text-align: center;
-  /* background-color: rgb(241, 241, 241); */
 }
 
 nav {
@@ -24,7 +30,7 @@ nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 2px 2px rgba(23, 25, 170, 0.5);
+  /* box-shadow: 0 2px 2px rgba(23, 25, 170, 0.5); */
 }
 
 .logo {
@@ -53,16 +59,11 @@ nav {
   flex: 1;
 }
 
-links:hover {
-  background-color: rgb(4, 45, 112);
-}
-
 /* HOME  */
 main {
   text-align: center;
   flex: 1;
 }
-
 
 main p {
   font-size: 20px;
@@ -91,17 +92,15 @@ main p {
   display: flex;
   text-align: center;
   flex-direction: column;
-
 }
 
 table {
   text-align: center;
-
 }
 
 table th {
   color: #1351b8;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 table td {
@@ -114,8 +113,6 @@ table td {
   text-align: center;
 }
 
-
-
 .texto {
   font-size: 20px;
 }
@@ -125,7 +122,6 @@ table td {
   text-align: center;
   flex-direction: column;
   width: 320px;
-
 }
 
 .imagensCars3 {
@@ -166,14 +162,13 @@ iframe {
   height: 600px;
 }
 
-
 /* CONTATO  */
 
 .contato {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  margin-top: 5%;
 }
 
 .imagetabela img {
@@ -187,14 +182,27 @@ iframe {
 
 input,
 select {
-  padding: 12px 20px;
+  padding: 12px 10px;
   margin: 8px 0;
   border: 1px solid #000;
   width: 100%;
   border-radius: 4px;
   box-sizing: border-box;
 }
-
+label {
+ font-weight: bold;
+ font-size: 20px;
+ text-align: left;
+}
+.buttoncontato {
+  background-color: #0263ff;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
 
 /* FOOTER */
 
@@ -208,7 +216,9 @@ footer {
 }
 
 footer img {
-  margin-right: 10px;
+  margin-right: 50px;
+  text-align: center;
+  align-items: center;
 }
 
 .redes {
@@ -224,50 +234,45 @@ footer img {
   margin: 5px;
 }
 
-@media (max-width: 468px) {
-
-  html,
-  body {
-    height: 100%;
-    display: flex;
+@media (max-width: 768px) {
+  /* Deixa os links na vertical e da um espaço entre eles */
+  .links {
     flex-direction: column;
+    gap: 10px;
   }
-
-  nav {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .logo img {
-    height: 30px;
-    width: auto;
-
-  }
-
-  footer {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-  }
-
-  .tabela {
-    width: 100%;
-    flex-direction: column;
-    padding: 10px;
-    margin: auto;
-  }
-
-  button {
-    background-color: #0263ff;
-    border-radius: 10px;
+/* Reduz a fonte pata uma melhor visualização */
+  .links a {
     font-size: 20px;
-    color: white;
-    cursor: pointer;
+  }
+/* Deixa as tabelas lado a lado sem se empilhar */
+  .tabelasInfo {
+    flex-direction: column;
+    gap: 40px;
+  }
+/* Centraliza e separa os blocos evitando que fiquem amontoadas */
+  .imagensCars1,
+  .imagensCars2,
+  .imagensCars3 {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+/* Deixando as imagens ajustadas sem sair da tela  */
+  .imagensCars img {
+    width: 90%;
+  }
+/* Empilha os elementos da seção e cria um espaçamento entre eles */
+  .contato {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+/* Ocupa toda a largura  */
+  .imagetabela img {
     width: 100%;
   }
-
-  button:hover {
-    background-color: rgb(4, 45, 112);
+/* Reduz a altura do video para telas menores  */
+  iframe {
+    height: 300px;
   }
 }
+
