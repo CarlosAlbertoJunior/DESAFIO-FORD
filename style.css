@@ -20,8 +20,8 @@ img {
 
 /* MENU  */
 header {
-  color: #1351b8;
-  padding: 1em;
+  /* color: #1351b8; */
+  padding: 16px;
   text-align: center;
 }
 
@@ -34,13 +34,20 @@ nav {
 }
 
 .logo {
-  text-align: left;
+  /* text-align: left; */
 }
 
 .logo img {
   height: 50px;
   width: auto;
   margin: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .links a {
@@ -52,15 +59,10 @@ nav {
   text-align: center;
   transition: transform 0.3s ease;
 }
-.links a:hover {
-  transform: scale(1.1); /* Aplica o zoom */
-}
 
-.links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
+.links a:hover {
+  transform: scale(1.1);
+  /* Aplica o zoom */
 }
 
 /* HOME  */
@@ -92,12 +94,6 @@ main p {
   margin: auto;
 }
 
-.imagensCars1 {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-}
-
 table {
   text-align: center;
 }
@@ -121,22 +117,12 @@ table td {
   font-size: 20px;
 }
 
-.imagensCars2 {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  width: 320px;
-}
-
+.imagensCars1,
+.imagensCars2,
 .imagensCars3 {
   display: flex;
   text-align: center;
   flex-direction: column;
-  vertical-align: middle;
-}
-
-.imagensCars img {
-  width: 320px;
 }
 
 .tabelasInfo {
@@ -275,7 +261,7 @@ footer img {
     font-size: 25px;
   }
 
-  /* Deixa as tabelas lado a lado sem se empilhar */
+  /* Deixa as tabelas empilhadas */
   .tabelasInfo {
     flex-direction: column;
     gap: 40px;
@@ -314,6 +300,7 @@ footer img {
     width: 60px;
     margin-top: 5px;
   }
+
   footer p {
     font-size: 10px;
   }
