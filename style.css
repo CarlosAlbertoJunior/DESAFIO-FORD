@@ -25,13 +25,6 @@ nav {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 2px 2px rgba(23, 25, 170, 0.5);
-<<<<<<< HEAD
-}
-
-.logo {
-  text-align: left;
-=======
->>>>>>> e2c0e1a6a37089a51814f7e7ab609cae998ce99d
 }
 
 .logo img {
@@ -39,21 +32,12 @@ nav {
   width: auto;
   margin: 5px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> e2c0e1a6a37089a51814f7e7ab609cae998ce99d
 .links {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
 }
-<<<<<<< HEAD
-/* Ajuste em cada link */
-=======
-
->>>>>>> e2c0e1a6a37089a51814f7e7ab609cae998ce99d
 .links a {
   margin: 0 16px;
   color: #1351b8;
@@ -63,18 +47,12 @@ nav {
   text-align: center;
   transition: transform 0.3s ease;
 }
-<<<<<<< HEAD
-.links a:hover {
-  transform: scale(1.1); /* Aplica o zoom */
-}
-=======
 
 .links a:hover {
   transform: scale(1.1);
   /* Aplica o zoom */
 }
 
->>>>>>> e2c0e1a6a37089a51814f7e7ab609cae998ce99d
 /* HOME  */
 main {
   text-align: center;
@@ -100,15 +78,6 @@ main p {
   padding: 16px;
   margin: auto;
 }
-<<<<<<< HEAD
-.imagensCars1 {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-}
-=======
-
->>>>>>> e2c0e1a6a37089a51814f7e7ab609cae998ce99d
 table {
   text-align: center;
 }
@@ -127,29 +96,17 @@ table td {
 .texto {
   font-size: 20px;
 }
-<<<<<<< HEAD
-.imagensCars2 {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  width: 320px;
-}
-=======
 
 .imagensCars1,
 .imagensCars2,
->>>>>>> e2c0e1a6a37089a51814f7e7ab609cae998ce99d
 .imagensCars3 {
   display: flex;
   text-align: center;
   flex-direction: column;
-<<<<<<< HEAD
   vertical-align: middle;
 }
 .imagensCars img {
   width: 320px;
-=======
->>>>>>> e2c0e1a6a37089a51814f7e7ab609cae998ce99d
 }
 .tabelasInfo {
   display: flex;
@@ -266,12 +223,8 @@ footer img {
   .links a {
     font-size: 25px;
   }
-<<<<<<< HEAD
-  /* Deixa as tabelas lado a lado sem se empilhar */
-=======
 
   /* Deixa as tabelas empilhadas */
->>>>>>> e2c0e1a6a37089a51814f7e7ab609cae998ce99d
   .tabelasInfo {
     flex-direction: column;
     gap: 40px;
