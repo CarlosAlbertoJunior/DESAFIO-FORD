@@ -17,7 +17,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* MENU  */
+/* MENU  ---------------------------------------------------------------*/
 header {
   /* color: #1351b8; */
   padding: 16px;
@@ -61,7 +61,7 @@ nav {
   border-radius: 10px;
 }
 
-/* HOME  */
+/* HOME  ---------------------------------------------------------------*/
 main {
   text-align: center;
   flex: 1;
@@ -79,7 +79,7 @@ main p {
   width: 80%;
   height: auto;
 }
-/* LANÇAMENTO  */
+/* LANÇAMENTO  ----------------------------------------------------------*/ 
 .tabela {
   display: flex;
   justify-content: space-around;
@@ -139,7 +139,7 @@ iframe {
   width: 100%;
   height: 600px;
 }
-/* CONTATO  */
+/* CONTATO  ---------------------------------------------------------*/
 .contato {
   display: flex;
   align-items: center;
@@ -186,7 +186,7 @@ label {
   cursor: pointer;
   width: 100%;
 }
-/* FOOTER */
+/* FOOTER ------------------------------------------------------------*/
 footer {
   background-color: #1b357e;
   color: white;
@@ -211,7 +211,7 @@ footer img {
   width: auto;
   margin: 5px;
 }
-/* Ajuste especifico para a class das tabelas da pag lançamento */
+/* Ajuste especifico para a class das tabelas da pag lançamento ----------------*/
 @media (max-width: 1016px) {
   .tabela {
     flex-direction: column;
