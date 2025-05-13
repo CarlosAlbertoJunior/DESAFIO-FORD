@@ -196,7 +196,7 @@ footer {
   width: 100%;
 }
 footer img {
-  margin-right: 50px;
+  margin: 10px 50px;
   text-align: center;
   align-items: center;
 }
@@ -207,7 +207,7 @@ footer img {
   margin-left: 10px;
 }
 .redes img {
-  height: 30px;
+  height: 40px;
   width: auto;
   margin: 5px;
 }
