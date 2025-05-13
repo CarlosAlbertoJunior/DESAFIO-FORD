@@ -11,20 +11,17 @@ body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* Impedindo a ultrapassagem da largura da tela  */
 img {
   max-width: 100%;
   height: auto;
 }
-
 /* MENU  */
 header {
   /* color: #1351b8; */
   padding: 16px;
   text-align: center;
 }
-
 nav {
   margin: 0 16px;
   align-items: center;
@@ -38,14 +35,12 @@ nav {
   width: auto;
   margin: 5px;
 }
-
 .links {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
 }
-
 .links a {
   margin: 0 16px;
   color: #1351b8;
@@ -66,7 +61,6 @@ main {
   text-align: center;
   flex: 1;
 }
-
 main p {
   font-size: 20px;
   margin: 20px;
@@ -74,14 +68,12 @@ main p {
   font-style: italic;
   color: #010101;
 }
-
 .imagemCar img {
   margin-top: 50px;
   border-radius: 10px;
   width: 80%;
   height: auto;
 }
-
 /* LANÇAMENTO  */
 .tabela {
   display: flex;
@@ -89,26 +81,21 @@ main p {
   padding: 16px;
   margin: auto;
 }
-
 table {
   text-align: center;
 }
-
 table th {
   color: #1351b8;
   font-size: 19px;
 }
-
 table td {
   font-size: 20px;
 }
-
 .tabela-contato {
   border: 1px solid #ccc;
   padding: 12px;
   text-align: center;
 }
-
 .texto {
   font-size: 20px;
 }
@@ -119,15 +106,17 @@ table td {
   display: flex;
   text-align: center;
   flex-direction: column;
+  vertical-align: middle;
 }
-
+.imagensCars img {
+  width: 320px;
+}
 .tabelasInfo {
   display: flex;
   gap: 300px;
   text-align: center;
   justify-content: center;
 }
-
 button {
   background-color: #0263ff;
   border-radius: 10px;
@@ -138,34 +127,27 @@ button {
   color: white;
   cursor: pointer;
 }
-
 button:hover {
   background-color: rgb(4, 45, 112);
 }
-
 iframe {
   width: 100%;
   height: 600px;
 }
-
 /* CONTATO  */
-
 .contato {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 5%;
 }
-
 .imagetabela img {
   width: 500px;
   height: auto;
 }
-
 .forms {
   border-radius: 4px;
 }
-
 input,
 select {
   padding: 12px 10px;
@@ -175,7 +157,6 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 textarea {
   padding: 12px 10px;
   margin: 8px 0;
@@ -186,13 +167,11 @@ textarea {
   box-sizing: border-box;
   resize: none;
 }
-
 label {
   font-weight: bold;
   font-size: 20px;
   text-align: left;
 }
-
 .buttoncontato {
   background-color: #0263ff;
   border-radius: 10px;
@@ -202,9 +181,7 @@ label {
   cursor: pointer;
   width: 100%;
 }
-
 /* FOOTER */
-
 footer {
   background-color: #1b357e;
   color: white;
@@ -213,26 +190,22 @@ footer {
   align-items: center;
   width: 100%;
 }
-
 footer img {
   margin-right: 50px;
   text-align: center;
   align-items: center;
 }
-
 .redes {
   display: flex;
   align-items: center;
   font-size: 15px;
   margin-left: 10px;
 }
-
 .redes img {
   height: 30px;
   width: auto;
   margin: 5px;
 }
-
 /* Ajuste especifico para a class das tabelas da pag lançamento */
 @media (max-width: 1016px) {
   .tabela {
@@ -240,18 +213,15 @@ footer img {
     align-items: center;
   }
 }
-
 @media (max-width: 850px) {
   .logo img {
     display: none;
   }
-
   /* Deixa os links na vertical e da um espaço entre eles */
   .links {
     flex-direction: column;
     gap: 10px;
   }
-
   /* Reduz a fonte pata uma melhor visualização */
   .links a {
     font-size: 25px;
@@ -262,35 +232,29 @@ footer img {
     flex-direction: column;
     gap: 40px;
   }
-
   /* Deixando as imagens ajustadas sem sair da tela  */
   .imagensCars img {
     width: 90%;
   }
-
   /* Empilha os elementos da seção e cria um espaçamento entre eles */
   .contato {
     flex-direction: column;
     padding: 20px;
     gap: 20px;
   }
-
   /* Ocupa toda a largura  */
   .imagetabela img {
     width: 100%;
   }
-
   /* Reduz a altura do video para telas menores  */
   iframe {
     height: 300px;
   }
-
   footer {
     flex-direction: column;
 
     text-align: center;
   }
-
   footer img {
     margin: 0;
     width: 60px;
@@ -300,11 +264,9 @@ footer img {
   footer p {
     font-size: 10px;
   }
-
   .redes h4 {
     display: none;
   }
-
   .redes p {
     margin: 0;
   }
