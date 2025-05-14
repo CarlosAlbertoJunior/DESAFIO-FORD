@@ -12,7 +12,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 
 }
-/* Impedindo a ultrapassagem da largura da tela  */
 img {
   max-width: 100%;
   height: auto;
@@ -58,8 +57,10 @@ nav {
   /* Aplica o zoom */
 }
 .destaque { /*Destacando em qual Pg está */
-  border-style: double;
+  border: 1px solid;
   border-radius: 10px;
+  padding: 3px;
+  background-color: #1352b823;
 }
 
 /* HOME  ---------------------------------------------------------------*/
