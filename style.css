@@ -63,8 +63,10 @@ nav {
 
 .destaque {
   /*Destacando em qual Pg está */
-  border-style: double;
-  border-radius: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #1313301f;
 }
 
 /* HOME  ---------------------------------------------------------------*/
@@ -296,7 +298,6 @@ footer img {
 
   footer {
     flex-direction: column;
-
     text-align: center;
   }
 
