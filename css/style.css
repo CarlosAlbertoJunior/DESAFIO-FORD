@@ -256,7 +256,8 @@ footer img {
 @media (max-width: 850px) {
 
   .logo img {
-    display: none;
+    /* display: none; */
+    height: 20px;
   }
 
   /* Menu Fixo */
@@ -267,9 +268,13 @@ footer img {
     width: 100%;
   }
 
+  nav {
+    flex-direction: column;
+  }
+
   /* Espaço para não esconder o conteudo atrás do menu */
   main {
-    margin-top: 40%;
+    margin-top: 50%;
   }
 
   /* Deixa os links na vertical e da um espaço entre eles */
