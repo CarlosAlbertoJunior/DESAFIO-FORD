@@ -1,4 +1,4 @@
-*Projeto Cimatec Front-end*
+*Projeto Cimatec Front-end* <br>
 *Site criado pelo desafio 4 do curso do Ford End realizado pelo SENAI Digital, com o professor Robson Guima*
 *Com as seguintes Verificações*
 
