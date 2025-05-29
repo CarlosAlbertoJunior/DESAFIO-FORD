@@ -1,0 +1,76 @@
+.tabela {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    margin: auto;
+}
+
+table {
+    text-align: center;
+}
+
+table th {
+    color: var(--azul-claro);
+    font-size: 19px;
+}
+
+table td {
+    font-size: 20px;
+}
+
+.tabela-contato {
+    border: 1px solid var(--cor-branca);
+    padding: 12px;
+    text-align: center;
+}
+
+.texto {
+    font-size: 20px;
+}
+
+.imagensCars1,
+.imagensCars2,
+.imagensCars3 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.imagensCars img {
+    width: 320px;
+}
+
+.tabelasInfo {
+    display: flex;
+    gap: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    background-color: var(--azul-claro);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--cor-branca);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--azul-escuro);
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+}
+
+@media (max-width: 1016px) {
+    .tabela {
+        flex-direction: column;
+        align-items: center;
+    }
+}

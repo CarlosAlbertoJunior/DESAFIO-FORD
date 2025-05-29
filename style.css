@@ -1,0 +1,100 @@
+@import url("./css/lancamento.css");
+@import url("./css/contato.css");
+@import url("./css/carousel.css");
+@import url("./css/menu.css");
+@import url("./css/footer.css");
+
+
+:root {
+  --cor-branca: white;
+  --azul-escuro: #1b357e;
+  --azul-claro: #1351b8;
+  --cor-preta: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  text-align: center;
+  flex: 1;
+}
+
+@media (max-width: 850px) {
+
+  .logo img {
+    /* display: none; */
+    height: 20px;
+  }
+
+  /* Menu Fixo */
+  header {
+    z-index: 1000;
+    position: fixed;
+    background-color: var(--cor-branca);
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  /* Espaço para não esconder o conteudo atrás do menu */
+  main {
+    margin-top: 50%;
+  }
+
+  /* Deixa os links na vertical e da um espaço entre eles */
+  .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Reduz a fonte pata uma melhor visualização */
+  .links a {
+    font-size: 25px;
+  }
+
+  /* Deixa as tabelas empilhadas */
+  .tabelasInfo {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* Deixando as imagens ajustadas sem sair da tela  */
+  .imagensCars img {
+    width: 90%;
+  }
+
+  /* Empilha os elementos da seção e cria um espaçamento entre eles */
+  .contato {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  /* Ocupa toda a largura  */
+  .imagetabela img {
+    width: 100%;
+  }
+
+  /* Reduz a altura do video para telas menores  */
+
+}

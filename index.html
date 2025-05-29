@@ -6,41 +6,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
   <link rel="icon" href="./img/ford-96.png">
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./css/carousel.css" />
 </head>
 
 <body>
-  <header> <!-- MENU -->
+  <header>
     <nav>
       <div class="logo">
         <a href="./index.html">
-          <img src="./img/logo-ford-256.png" alt="" /></a>
+          <img src="./img/logo-ford-256.png" alt="Logo Ford" />
+        </a>
       </div>
       <div class="links">
         <a class="destaque" href="index.html">Home</a>
-        <a href="lancamento.htm">Lançamento</a>
+        <a href="lancamento.html">Lançamento</a>
         <a href="contato.html">Contato</a>
       </div>
     </nav>
   </header>
-  <main> <!-- CONTEUDO PRINCIPAL -->
-    <div class="imagemCar">
-      <a href="lancamento.htm"><img src="./img/imagem_1.jpg" alt="" /></a>
+  <main>
+    <div class="carousel-container">
+      <div class="carousel-slide">
+      </div>
+
+      <button class="carousel-button prev" onclick="CarouselManager.Previous()">&#10094;</button>
+      <button class="carousel-button next" onclick="CarouselManager.Next()">&#10095;</button>
+
+      <div class="carousel-dots">
+      </div>
     </div>
-    <p>Esta é a nova Ranger Ford 2022. Verifique novidades aqui.</p>
   </main>
-  <footer> <!-- RODAPÉ-->
+  <footer>
     <div class="redes">
-      <!-- <h4>Redes Sociais</h4> -->
-      <a href="https://www.instagram.com/ford/" target="_blank"> <img src="./img/instagram-logo-50.png" alt="" /></a>
-      <a href="https://www.youtube.com/@ford" target="_blank"> <img src="./img/youtube-squared-50.png" alt="" /></a>
-      <a href="https://web.facebook.com/ford" target="_blank"> <img src="./img/facebook-50.png" alt="" /></a>
+      <a href="https://www.instagram.com/ford/" target="_blank"> <img src="./img/instagram-logo-50.png"
+          alt="Instagram" /></a>
+      <a href="https://www.youtube.com/ford" target="_blank"> <img src="./img/youtube-squared-50.png"
+          alt="YouTube" /></a>
+      <a href="https://web.facebook.com/ford" target="_blank"> <img src="./img/facebook-50.png" alt="Facebook" /></a>
     </div>
-    <p>&copy; 2025 Ford Brasil - Todos os direitos reservados</p>
+    <p>© 2025 Ford Brasil - Todos os direitos reservados</p>
     <div class="logofinal">
-      <img src="./img/ford-96.png" alt="" />
+      <img src="./img/ford-96.png" alt="Logo Ford" />
     </div>
   </footer>
+
+  <script src="./js/carousel.js"></script>
+  <script>
+    // Array de dados para o carrossel
+    // Cada objeto representa um slide
+    const carouselData = [
+      {
+        image: "./img/imagem_1.jpg",
+        title: "Esta é a nova Ranger Ford 2022. Verifique novidades.",
+        link: "lancamento.html"
+      },
+      {
+        image: "./img/imagem_2.jpg",
+        title: "Ford, a nossa história",
+        link: "https://pt.wikipedia.org/wiki/Ford_Motor_Company"  // 
+      },
+      {
+        image: "./img/imagem_3.jpg",
+        title: "Nova Ford Bronco Sport 2022",
+        link: "lancamento.html"
+      }
+    ];
+
+    // Inicia o carrossel com os dados
+    document.addEventListener('DOMContentLoaded', () => {
+      CarouselManager.Start(carouselData);
+    });
+  </script>
 </body>
 
 </html>

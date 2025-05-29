@@ -1,0 +1,50 @@
+header {
+    /* color: #1351b8; */
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 2px rgba(23, 25, 170, 0.5);
+}
+
+nav {
+    margin: 0 16px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin: 5px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.links a {
+    margin: 0 16px;
+    color: var(--azul-claro);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.links a:hover {
+    transform: scale(1.1);
+    /* Aplica o zoom */
+}
+
+.destaque {
+    /*Destacando em qual Pg está */
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1352b823;
+}
